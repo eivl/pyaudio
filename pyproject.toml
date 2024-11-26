@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pycliaudio"
+version = "0.1.0"
+description = "Cli audio player"
+authors = ["Eivind Teig <eivind.teig@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+textual = "^0.87.1"
+
+[tool.poetry.group.dev.dependencies]
+textual-dev = "^1.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
